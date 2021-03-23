@@ -49,7 +49,10 @@ if DEBUG:
     INSTALLED_APPS.extend([
         "debug_toolbar",
         "template_profiler_panel",
+        "django_extensions",
     ])
+
+
 
 # Auth model
 AUTH_USER_MODEL = "authnapp.ShopUser"
